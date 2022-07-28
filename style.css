@@ -1,0 +1,392 @@
+body{
+    padding: 0;
+    margin: 0;
+
+  
+}
+
+.rumahh{
+    background: black;
+    height: 100vh;
+    width: 100%;
+    position: sticky;
+    z-index: 2;
+    top: 0px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.rumahh .ruangTamu{
+    width: 200px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: -100px;
+    position: absolute;
+}
+
+.rumahh .ruangTamu .imageKado{
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.rumahh .ruangTamu .button{
+    width: 200px;
+}
+
+@keyframes kado{
+    0%{left: 0px;}
+    25%{left:50px}
+    50%{left:0px}
+    75%{left:-50px}
+    100%{left:0px}
+
+}
+
+.imageKado
+{
+    animation-name: kado;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+.rumah-navbar{
+    background-color: #D8412f;
+    padding: 0;
+    margin: 0;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+h2{
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+.rumah-background{
+    background-image: url('./kue.jpg');
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    height: 100vh;
+    background-position: 50% 70%;
+    margin-bottom: 100px;
+}   
+.rumah-ucapan{
+    background-color: #FCFDFE;
+    position: relative;
+
+    width: 800px;
+    
+    left: 50%;
+    margin-left: -400px;
+    margin-top: 50px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+
+}
+
+.rumah-ucapan-1-ucapan{
+    text-align: center;
+   
+}
+
+.rumah-ucapan-1{
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.rumah-ucapan-1-foto1 {
+    display: flex;
+}
+
+
+.rumah-ucapan-1-foto1 img{
+    width: 200px;
+    height: 200px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.button0{
+    width: 400px;
+    left: 50%;
+    margin-left: -200px;
+    position: relative;
+    text-align: center;
+}
+.button2{
+    width: 100px;
+    margin: 10px;
+}
+
+.batas{
+    width: 600px;
+    left: 50%;
+    margin-left: -300px;
+    position: relative;
+}
+
+.batas img{
+    width: 100px;
+    height: 100px;
+    animation-name: kucing;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    
+    position: relative;
+    text-align: center;
+
+}
+
+@keyframes kucing{
+    0%{left: 0px; opacity: 0;}
+    25%{left: 300px;}
+    50%{left: 600px;opacity: 1;}
+    75%{left: 300px}
+    100%{left: 0px; opacity: 0;}
+}
+
+.rumah-ucapan-2{
+    margin-top: 50px;
+}
+
+.rumah-ucapan-2-0{
+    text-align: center;
+    font-family: 'Oleo Script Swash Caps', cursive;
+
+}
+
+
+.rumah-ucapan-2-1{
+    width: 800px;
+
+    animation-name: kado2 ;
+    animation-duration: 2s;
+    height: 500px;
+    left: 50%;
+    margin-left: -400px;
+    position: relative;
+    background: #E9D5CA;
+    display: none;
+   
+}
+
+@keyframes kado2{
+    0%{height: 0px;}
+    100%{height:500px}
+
+}
+
+.rumah-ucapan-2-1-1{
+    display: flex;
+    animation-name: kado2;
+    width: 600px;
+    left: 50%;
+    margin-left: -300px;
+    position: relative;
+    justify-content: center;
+    
+}
+
+.rumah-ucapan-2-1-1 img{
+    width: 200px;
+    height: 200px;
+    animation-name: foto;
+    animation-duration: 13s;
+    margin: 20px;
+    position: relative;
+   
+
+}
+
+@keyframes foto{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+   
+}
+
+
+
+.rumah-ucapan-2-2{
+    width: 800px;
+
+    animation-name: kado3 ;
+    animation-duration: 3s;
+    height: 0px;
+    left: 50%;
+    margin-left: -400px;
+    position: relative;
+    background: #E9D5CA;
+    display: none;
+    animation-fill-mode: backwards;
+}
+
+@keyframes kado3{
+    0%{height: 500px;}
+    100%{height:0px}
+}
+
+
+
+
+
+
+.rumah-ucapan-2-3{
+    text-align: center;
+    font-family: 'Oleo Script Swash Caps', cursive;
+
+}
+
+
+.rumah-ucapan-2-4{
+    width: 800px;
+
+    animation-name: kado2 ;
+    animation-duration: 2s;
+    height: 500px;
+    left: 50%;
+    margin-left: -400px;
+    position: relative;
+    background: #FFCC8F;
+    display: none;
+   
+}
+
+.rumah-ucapan-2-4-1{
+    display: flex;
+    animation-name: kado2;
+    width: 600px;
+    left: 50%;
+    margin-left: -300px;
+    position: relative;
+    justify-content: center;
+    
+}
+
+.rumah-ucapan-2-4-1 img{
+    width: 200px;
+    height: 200px;
+    animation-name: foto;
+    animation-duration: 13s;
+    margin: 20px;
+    position: relative;
+
+}
+
+.rumah-ucapan-2-5{
+    width: 800px;
+
+    animation-name: kado3 ;
+    animation-duration: 3s;
+    height: 0px;
+    left: 50%;
+    margin-left: -400px;
+    position: relative;
+    background: #FFCC8F;
+    display: none;
+}
+
+
+
+
+
+
+
+
+.rumah-ucapan-2-6{
+    text-align: center;
+    font-family: 'Oleo Script Swash Caps', cursive;
+
+}
+
+
+.rumah-ucapan-2-7{
+    width: 800px;
+
+    animation-name: kado2 ;
+    animation-duration: 2s;
+    height: 500px;
+    left: 50%;
+    margin-left: -400px;
+    position: relative;
+    background: #FFDAAF;
+    display: none;
+   
+}
+
+.rumah-ucapan-2-7-1{
+    display: flex;
+    animation-name: kado2;
+    width: 600px;
+    left: 50%;
+    margin-left: -300px;
+    position: relative;
+    justify-content: center;
+    
+}
+
+.rumah-ucapan-2-7-1 img{
+    width: 200px;
+    height: 200px;
+    animation-name: foto;
+    animation-duration: 13s;
+    margin: 20px;
+    position: relative;
+
+}
+
+.rumah-ucapan-2-8{
+    width: 800px;
+
+    animation-name: kado3 ;
+    animation-duration: 3s;
+    height: 0px;
+    left: 50%;
+    margin-left: -400px;
+    position: relative;
+    background: #FFDAAF;
+    display: none;
+}
+
+.close{
+    background: black;
+    color: white;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    height: 200px;
+    position: relative;
+    margin-top: 30px;
+}
+
+.close-ucapan{
+ margin-top: 50px;
+ position: absolute;
+ width:400px ;
+ left: 50%;
+ margin-left: -200px;
+ text-align: center;
+}
+
+.close-ucapan h1{
+    padding: 0;
+    margin: 0;
+    
+}
+
+@media only screen and (max-width: 500px){
+    .rumah-ucapan{
+    background-color: #FCFDFE;
+    position: relative;
+
+    width: 200px;
+    
+    left: 50%;
+    margin-left: -100px;
+    margin-top: 50px;
+    font-family: 'Oleo Script Swash Caps', cursive;
+
+    }
+}
